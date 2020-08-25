@@ -1,8 +1,7 @@
 Disclaimer: This repo is being worked on and is incomplete
 
 # bowtie
-Docker wrapper around Bowtie genetic alignment search. All code is base to make it easier to run, as described here:
-http://bowtie-bio.sourceforge.net/index.shtml
+Docker wrapper around Bowtie genetic alignment search. All code is base to make it easier to run, as described in the [project website](http://bowtie-bio.sourceforge.net/index.shtml)
 
 
 ```
@@ -23,7 +22,7 @@ python bowtie e_coli reads/e_coli_1000.fq
 
 ## Installing prebuild indexes
 
-As it is, t can only run wrappers found in the old FTP server (ftp://ftp.ccb.jhu.edu/pub/data/bowtie_indexes/). For example, if we want to run a sequence on <em>s. cerevisiae</em>. We first need to go into the index folder:
+As it is, t can only run wrappers found in the [old FTP server](ftp://ftp.ccb.jhu.edu/pub/data/bowtie_indexes/). For example, if we want to run a sequence on <em>s. cerevisiae</em>. We first need to go into the index folder:
 ```
 cd indexes
 ```
