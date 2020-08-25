@@ -3,6 +3,17 @@ Disclaimer: This repo is being worked on and is incomplete
 # bowtie
 Implementation of Bowtie genetic alignment search
 
+
+```
+git clone 
+cd bowtie
+```
+
+```
+docker build -t bowtie .
+docker run -it bowtie /bin/bash
+```
+
 ```
 cd indexes
 wget ftp://ftp.ccb.jhu.edu/pub/data/bowtie_indexes/s_cerevisiae.ebwt.zip
