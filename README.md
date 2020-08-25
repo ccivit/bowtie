@@ -5,7 +5,7 @@ Implementation of Bowtie genetic alignment search
 
 
 ```
-git clone 
+git clone https://github.com/ccivit/bowtie
 cd bowtie
 ```
 
