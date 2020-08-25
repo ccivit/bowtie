@@ -23,13 +23,15 @@ python bowtie e_coli reads/e_coli_1000.fq
 
 ## Installing prebuild indexes
 
-As it is, t can only run wrappers found in the old FTP server (ftp://ftp.ccb.jhu.edu/pub/data/bowtie_indexes/). For example, if we want to run a sequence on <em>s. cerevisiae</em>
+As it is, t can only run wrappers found in the old FTP server (ftp://ftp.ccb.jhu.edu/pub/data/bowtie_indexes/). For example, if we want to run a sequence on <em>s. cerevisiae</em>. We first need to go into the index folder:
 ```
 cd indexes
+```
+And download the indexes that we need:
+```
 wget ftp://ftp.ccb.jhu.edu/pub/data/bowtie_indexes/s_cerevisiae.ebwt.zip
 unzip s_cerevisiae.ebwt.zip 
 ```
-
 Test if installation successful
 
 ```
