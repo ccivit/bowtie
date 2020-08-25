@@ -2,8 +2,10 @@ Disclaimer: This repo is being worked on and is incomplete
 
 # bowtie
 Docker wrapper around Bowtie genetic alignment search. All code is base to make it easier to run, as described in the [project website](http://bowtie-bio.sourceforge.net/index.shtml)
+Docker has to be installed on the computer before we can proceed. To do so, please refer to the [Docker website](https://docs.docker.com/get-docker/) for details on how to install it, and what version is needed for your computer.
 
-
+## Getting started
+Once Docker is successfully installed, download this repository
 ```
 git clone https://github.com/ccivit/bowtie
 cd bowtie
@@ -18,7 +20,6 @@ To test that the installation has gone correctly, you should be able to run with
 ```
 python bowtie e_coli reads/e_coli_1000.fq
 ```
-
 
 ## Installing prebuild indexes
 
