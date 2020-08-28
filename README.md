@@ -16,6 +16,12 @@ docker build -t bowtie .
 docker run -it bowtie
 ```
 
+```
+wget https://sourceforge.net/projects/bowtie-bio/files/bowtie/1.3.0/bowtie-1.3.0-linux-x86_64.zip/download
+unzip download
+rm -r download
+```
+
 To test that the installation has gone correctly, you should be able to run without errors:
 ```
 python bowtie e_coli reads/e_coli_1000.fq
