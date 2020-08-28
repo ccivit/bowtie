@@ -1,5 +1,3 @@
-Disclaimer: This repo is being worked on and is incomplete
-
 # bowtie
 Docker wrapper around Bowtie genetic alignment search. All code is base to make it easier to run, as described in the [project website](http://bowtie-bio.sourceforge.net/index.shtml)
 Docker has to be installed on the computer before we can proceed. To do so, please refer to the [Docker website](https://docs.docker.com/get-docker/) for details on how to install it, and what version is needed for your computer.
