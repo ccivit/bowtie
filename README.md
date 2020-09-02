@@ -11,9 +11,9 @@ cd bowtie
 
 ```
 docker build -t bowtie .
-docker run -it bowtie
+docker run -v /user/dir/to/map:/bowtie -it bowtie
 ```
-
+You need to download the files into the directory you determined above (/user/dir/to/map). This will be implemented as part of a setup.py file in the future.
 ```
 wget https://sourceforge.net/projects/bowtie-bio/files/bowtie/1.3.0/bowtie-1.3.0-linux-x86_64.zip/download
 unzip download
